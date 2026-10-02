@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Politique de confidentialité — AEGIS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0A0A0A;--panel:#13110D;--text:#DDD7C7;--dim:#9A9484;--gold:#C9A84C;--gold-bright:#E8C46A;--gold-deep:#5A4520;--rule:#2A2417}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:1.0625rem;line-height:1.75}
+a{color:var(--gold-bright);text-decoration-color:var(--gold-deep);text-underline-offset:.18em}
+a:hover{text-decoration-color:var(--gold-bright)}
+a:focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px;border-radius:2px}
+.wrap{max-width:42rem;margin:0 auto;padding:calc(3rem + env(safe-area-inset-top)) 1.4rem 6rem}
+.lambda{display:block;font-family:'Cinzel',serif;font-size:3.2rem;line-height:1;color:var(--gold);margin-bottom:.7rem}
+h1{font-family:'Cinzel',serif;font-weight:600;font-size:clamp(1.55rem,5.4vw,2.2rem);letter-spacing:.06em;line-height:1.25;color:var(--gold-bright);margin:0 0 .7rem}
+.meta{color:var(--dim);font-size:.92rem;margin:0 0 2.2rem;padding-bottom:1.5rem;border-bottom:1px solid var(--gold-deep)}
+h2{font-family:'Cinzel',serif;font-weight:600;font-size:1.1rem;letter-spacing:.05em;line-height:1.35;color:var(--gold);margin:2.8rem 0 .8rem}
+p{margin:0 0 1rem}
+ul{padding:0;margin:0 0 1rem;list-style:none}
+li{position:relative;padding-left:1.4rem;margin-bottom:.55rem}
+li::before{content:'\25C6';position:absolute;left:0;top:.62em;color:var(--gold);font-size:.55em;line-height:1}
+.summary{background:var(--panel);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;padding:1.2rem 1.3rem .5rem;margin:0 0 2rem}
+.summary h2{margin-top:0;font-size:1rem}
+dl{margin:0 0 1rem}
+dt{font-weight:600;color:var(--gold-bright);margin-top:1.1rem}
+dd{margin:.15rem 0 0}
+table.legal{width:100%;border-collapse:collapse;margin:0 0 1.2rem;font-size:.98rem}
+table.legal th,table.legal td{text-align:left;vertical-align:top;padding:.7rem .9rem .7rem 0;border-bottom:1px solid var(--rule)}
+table.legal th{font-family:'Cinzel',serif;font-weight:600;font-size:.8rem;letter-spacing:.05em;color:var(--gold)}
+table.legal td:first-child{width:52%}
+@media (max-width:36rem){
+  table.legal,table.legal tbody,table.legal tr,table.legal td{display:block;width:auto}
+  table.legal thead{display:none}
+  table.legal td:first-child{width:auto;border-bottom:0;padding-bottom:.1rem}
+  table.legal td:last-child{color:var(--dim);padding-top:0;font-size:.94rem}
+}
+mark.todo{background:#FFD24A;color:#1A1400;padding:.05em .35em;border-radius:3px;font-weight:600;font-size:.92em}
+.footer{margin-top:3.6rem;padding-top:1.4rem;border-top:1px solid var(--gold-deep);color:var(--dim);font-size:.9rem;display:flex;flex-wrap:wrap;gap:.6rem 1.6rem}
+#todo-banner{position:fixed;left:0;right:0;bottom:0;z-index:10;background:#FFD24A;color:#1A1400;font:600 .9rem/1.4 system-ui,sans-serif;text-align:center;padding:.7rem 1rem calc(.7rem + env(safe-area-inset-bottom))}
+</style>
+</head>
+<body>
+<main class="wrap">
+<span class="lambda" aria-hidden="true">&Lambda;</span>
+<h1>Politique de confidentialité</h1>
+<p class="meta">Dernière mise à jour : 2 octobre 2026</p>
+
+<aside class="summary">
+<h2>En bref</h2>
+<ul>
+<li>AEGIS ne collecte que ce qui sert à faire fonctionner ton compte, ta progression et ton abonnement.</li>
+<li>Tes données ne sont pas vendues et ne servent pas à de la publicité.</li>
+<li>Elles sont hébergées chez Supabase. Les paiements passent par Apple, et RevenueCat gère le statut de ton abonnement.</li>
+<li>Tu peux consulter, corriger ou supprimer tes données à tout moment.</li>
+</ul>
+</aside>
+
+<h2>1. Qui est responsable de tes données</h2>
+<p>Le responsable du traitement est Raphaël Brunetto, <mark class="todo">[À COMPLÉTER après la création de ton activité : statut, numéro SIRET et adresse]</mark>, éditeur de l’application AEGIS.</p>
+<p>Contact : <a href="mailto:aegisapp.pro@gmail.com">aegisapp.pro@gmail.com</a></p>
+
+<h2>2. Les données que nous traitons</h2>
+<dl>
+<dt>Compte</dt>
+<dd>Ton adresse e-mail et ton mot de passe. Le mot de passe est géré par le service d’authentification de Supabase : il est stocké sous forme chiffrée et AEGIS n’y a pas accès en clair. Un identifiant unique est associé à ton compte.</dd>
+<dt>Profil</dt>
+<dd>Les informations de profil que tu renseignes, comme ta photo de profil (facultative) et le mentor que tu as choisi.</dd>
+<dt>Progression</dt>
+<dd>Tes habitudes, tes validations quotidiennes, ton expérience, ton rang, tes séries, tes succès, tes objectifs et le contenu de ton Vision Board.</dd>
+<dt>Corps et entraînement</dt>
+<dd>Ton âge, ton sexe, ta taille, ton poids et les photos de toi que tu ajoutes dans l’app. Ces informations peuvent révéler des éléments liés à ta santé : nous ne les traitons qu’avec ton consentement explicite, que tu donnes dans l’app et que tu peux retirer à tout moment.</dd>
+<dt>Abonnement</dt>
+<dd>Ton statut premium, sa date d’expiration et un identifiant client RevenueCat (le même que ton identifiant AEGIS). Apple traite le paiement : nous ne voyons ni ne stockons ton numéro de carte.</dd>
+<dt>Notifications</dt>
+<dd>Si tu les actives, AEGIS peut t’envoyer des rappels. Tu peux les couper à tout moment dans les réglages d’iOS.</dd>
+<dt>Données techniques</dt>
+<dd>Les informations de base nécessaires au fonctionnement de l’app et à la correction des bugs, comme le modèle d’appareil, la version d’iOS et les rapports d’erreur.</dd>
+</dl>
+
+<h2>3. Pourquoi nous les utilisons</h2>
+<table class="legal">
+<thead><tr><th>Finalité</th><th>Base légale</th></tr></thead>
+<tbody>
+<tr><td>Créer ton compte, afficher ta progression, faire fonctionner l’app</td><td>Exécution du contrat (les conditions d’utilisation)</td></tr>
+<tr><td>Gérer ton abonnement premium et restaurer tes achats</td><td>Exécution du contrat</td></tr>
+<tr><td>Te rappeler tes habitudes par notification</td><td>Ton consentement, que tu peux retirer à tout moment</td></tr>
+<tr><td>Sécuriser l’app, prévenir les abus, corriger les bugs</td><td>Intérêt légitime</td></tr>
+<tr><td>Conserver les justificatifs comptables</td><td>Obligation légale</td></tr>
+<tr><td>Estimer tes calories et suivre l’évolution de ton poids à partir de tes données de corps (âge, sexe, taille, poids), et conserver les photos que tu ajoutes</td><td>Ton consentement explicite, que tu peux retirer à tout moment</td></tr>
+</tbody>
+</table>
+
+<h2>4. Qui reçoit tes données</h2>
+<p>Nous faisons appel à des prestataires techniques qui traitent des données pour notre compte :</p>
+<ul>
+<li><strong>Supabase</strong> : base de données, authentification et stockage des fichiers, dont ta photo de profil et tes photos de suivi. Les données sont hébergées à Londres, au Royaume-Uni.</li>
+<li><strong>RevenueCat</strong> : gestion des abonnements et vérification de ton statut premium.</li>
+<li><strong>Apple</strong> : paiement, facturation et acheminement des notifications sur iOS.</li>
+</ul>
+<p>Nous ne vendons pas tes données. Elles ne servent ni à de la publicité ciblée ni à du suivi publicitaire, et l’app n’intègre aucun outil publicitaire ni d’analyse tiers.</p>
+<p>Le Royaume-Uni, où Supabase héberge tes données, bénéficie d’une décision d’adéquation de la Commission européenne, qui reconnaît un niveau de protection équivalent à celui de l’Union. RevenueCat et Apple peuvent traiter des données en dehors de l’Union européenne, notamment aux États-Unis, dans le cadre des mécanismes prévus par le RGPD, comme les clauses contractuelles types.</p>
+<p>Nous pouvons enfin transmettre des données si la loi nous y oblige.</p>
+
+<h2>5. Combien de temps nous les gardons</h2>
+<ul>
+<li>Compte et progression : tant que ton compte existe. Ces données sont supprimées quand tu supprimes ton compte.</li>
+<li>Compte inactif : ton compte est supprimé après 24 mois sans connexion.</li>
+<li>Sauvegardes techniques éventuelles : purgées automatiquement après quelques jours.</li>
+<li>Justificatifs comptables : jusqu’à 10 ans, comme la loi l’impose.</li>
+</ul>
+
+<h2>6. Tes droits</h2>
+<p>Tu peux demander à tout moment l’accès à tes données, leur rectification, leur effacement, la limitation de leur traitement et leur portabilité. Tu peux t’opposer à un traitement fondé sur l’intérêt légitime. Quand un traitement repose sur ton consentement, tu peux le retirer, sans effet sur ce qui a eu lieu avant. Tu peux aussi définir des directives sur le sort de tes données après ton décès.</p>
+<p>Pour exercer un droit, écris à <a href="mailto:aegisapp.pro@gmail.com">aegisapp.pro@gmail.com</a>. Nous répondons dans un délai d’un mois. Nous pouvons te demander de justifier ton identité.</p>
+<p>Tu peux supprimer ton compte directement depuis l’app : tes données sont alors effacées, y compris tes photos. Pour retirer ton consentement sur les données de corps sans supprimer ton compte, écris-nous : nous cessons de les traiter et nous les supprimons.</p>
+<p>Si tu estimes que tes droits ne sont pas respectés, tu peux saisir la CNIL : <a href="https://www.cnil.fr" rel="noopener">www.cnil.fr</a>.</p>
+
+<h2>7. Sécurité</h2>
+<p>Nous appliquons des mesures techniques et organisationnelles adaptées : connexions chiffrées, authentification et accès limité aux données. Aucun système n’est infaillible. Si une violation de données présente un risque pour toi, nous te prévenons et nous en informons la CNIL, comme la loi l’exige.</p>
+
+<h2>8. Âge minimum</h2>
+<p>AEGIS est réservée aux personnes d’au moins 15 ans. Si tu penses qu’un enfant plus jeune nous a confié des données, écris-nous pour que nous les supprimions.</p>
+
+<h2>9. Stockage sur ton appareil</h2>
+<p>L’app enregistre sur ton téléphone des informations nécessaires à son fonctionnement, comme ta session de connexion et tes préférences. Elle n’utilise pas de cookies publicitaires.</p>
+
+<h2>10. Modifications de cette politique</h2>
+<p>Nous pouvons mettre cette politique à jour. La date en haut de la page indique la dernière version. En cas de changement important, nous te prévenons dans l’app.</p>
+
+<h2>11. Contact</h2>
+<p>Pour toute question sur tes données : <a href="mailto:aegisapp.pro@gmail.com">aegisapp.pro@gmail.com</a></p>
+
+<nav class="footer" aria-label="Pages légales">
+<a href="confidentialite.html">Politique de confidentialité</a>
+<a href="cgu.html">Conditions d’utilisation</a>
+<span>&copy; 2026 AEGIS</span>
+</nav>
+</main>
+<script>
+(function(){var n=document.querySelectorAll('mark.todo').length;if(!n)return;var b=document.createElement('div');b.id='todo-banner';b.textContent='Brouillon : '+n+' élément'+(n>1?'s':'')+' à compléter avant publication (surlignés en jaune).';document.body.appendChild(b);})();
+</script>
+</body>
+</html>
